@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+body{
+	background-color: rgba(41,41,41,1.00)
+}
+
+.writing
+{
+	overflow: auto;
+	align:center;
+	height: 500px;
+	width: 700px;
+	border: 1px #000000;
+	scroll-behavior: auto;
+	background-color: rgba(141,141,141,1.00)
+	
+}
+
+.songbird{
+	color: darkblue 
+}
+
+.goldfinch{
+	color: darkolivegreen
+	
+}
+
+.poli{
+	color: antiquewhite;
+	text-align: right;
+	background-color: rgba(141,141,141,.5);
+
+}
+
+.picpoli{
+	align-image: right;
+	width: 50;
+	height: 50;
+	
+}
+
+
+.container {
+	display:flex;
+	justify-content: flex-end;
+}
+
+.idcards{
+	color: darkgrey;
+	align-content: right;
+	border-image-width: auto;
+	
+	
+}
+
+a{
+	text-decoration: none;
+	text-decoration-color: antiquewhite;
+}
+
+#more {display: none;}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
